@@ -15,6 +15,7 @@ Na Api:
 - npm i
 - npm start
 ```
+![api_weather](https://user-images.githubusercontent.com/49458473/179368614-4c3e9508-3ad1-4b60-a5db-180ce82b3dc2.gif)
 
 ### Branches
 ```
@@ -40,6 +41,9 @@ instalação:  npm i --save react-router-dom
 - Instalação axios
 npm i axios
 ```
+
+![api](https://user-images.githubusercontent.com/49458473/179368612-19318c89-3f29-414b-95f5-eb6ac46d098d.gif)
+
 
 ### Lembretes e lista de tarefas 
 ```
@@ -100,3 +104,4 @@ Ferramentas utilizadas:
 postman
 
 ```
+![news_static](https://user-images.githubusercontent.com/49458473/179368617-9212938f-b6c1-4c5c-8443-465420210b6d.gif)
