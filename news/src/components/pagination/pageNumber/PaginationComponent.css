@@ -1,0 +1,17 @@
+.pagination {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1em;
+}
+
+.page-number {
+  background-color: #C4170C;
+  color: #fff;
+  width: 4em;
+  height: 2em;
+  text-align: center;
+  font-weight: bolder;
+}

@@ -1,0 +1,24 @@
+.post-title {
+  color: #c4170c;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-weight: bolder;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.245px;
+}
+
+.post {
+  border-top: #868686 outset 1px;
+  border-bottom: #86868685 outset 1px;
+}
+
+.item2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.item3 {
+  display: inline-block;
+  border: solid;
+}

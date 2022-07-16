@@ -1,0 +1,13 @@
+.selector {
+  text-align: center;
+  border: none;
+}
+
+.selector-box {
+  background-color: #C4170C;
+  color: #fff;
+  width: 4em;
+  height: 2em;
+  text-align: center;
+  font-weight: bolder;
+}
