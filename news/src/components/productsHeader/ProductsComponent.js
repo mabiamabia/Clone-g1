@@ -49,8 +49,7 @@ export default class ProductsComponent extends Component {
           </Nav.Item>
           <Nav.Item>
             <Nav.Link
-              style={{ fontWeight: "bolder" }}
-              className="link-secondary"
+              style={{Color: "#fe6885", fontWeight: "bolder" }}
               eventKey="Globoplay"
             >
               globoplay
