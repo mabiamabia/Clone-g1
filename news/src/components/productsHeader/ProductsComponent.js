@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Nav } from "react-bootstrap";
 
 export default class ProductsComponent extends Component {
+  
   render() {
     return (
       <div>

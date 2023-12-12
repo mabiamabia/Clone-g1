@@ -11,7 +11,6 @@ import MainPostComponent from "./components/posts/mainpost/MainPostComponent";
 import { BrowserRouter } from "react-router-dom";
 import Pagination from "./components/pagination/Pagination";
 
-
 function App() {
   return (
     <BrowserRouter>

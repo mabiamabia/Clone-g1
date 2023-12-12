@@ -7,7 +7,7 @@ import { Card, Col, Container, ListGroup, Row } from "react-bootstrap";
 export default function Pagination() {
   const [items, setItems] = useState([]);
 
-  /* paginação */
+   /* logica de paginação */
   const [itemsPerPage, setItemsPerPage] = useState(10);
   const [currentPage, setCurrentPage] = useState(0);
 
