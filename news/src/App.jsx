@@ -8,28 +8,33 @@ import ProductsComponent from "./components/productsHeader/ProductsComponent";
 import SeeMoreComponent from "./components/seeMore/SeeMoreComponent";
 import ApiWeather from "./services/ApiWeather";
 import MainPostComponent from "./components/posts/mainpost/MainPostComponent";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Pagination from "./components/pagination/Pagination";
+import PageComponent from "./pages/PageComponent";
+import  ArticleComponent  from "./pages/ArticleComponent";
+import { Home } from "./pages/Home";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Container fluid>
-          <ProductsComponent />
-          <ApiWeather />
-          <NavbarComponent />
-          <Container>
-            <MainPostComponent />
-          </Container>
-          <HomeComponent />
-          <HomeComponent />
-          <SeeMoreComponent />
-          <Pagination />      
-          <FooterComponent />
-        </Container>
+  
+     
+    <>
+      <BrowserRouter>
+      <div>
+      <NavbarComponent />
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/article" element={<ArticleComponent />} />
+          <Route path="/page" element={<PageComponent />} />
+          <Route path="*" element={<h1>Not found</h1>} />
+        </Routes>
+
+        
       </div>
-    </BrowserRouter>
+      </BrowserRouter>
+
+    </>
+
   );
 }
 export default App;
