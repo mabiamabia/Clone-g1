@@ -15,7 +15,7 @@ describe("ModalComponent", () => {
         await userEvent.click(screen.getByTestId("modal-button"))
 
         // assertions
-        expect(screen.getByTestId("modal")).toBe(true)
+        expect(screen.getByTestId("modal").textContent).toBe("Notícias do minuto")
 
     })
 })
