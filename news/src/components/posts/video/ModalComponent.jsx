@@ -1,22 +1,27 @@
 import React, { useState } from "react";
 import { Ratio, Modal, Button } from "react-bootstrap";
 
-export default function Example() {
+export default function ModalComponent() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   return (
     <>
+      <div />
       <Button style={
         {
-          background:"#c4170c"
+          background: "#c4170c"
         }
-      } onClick={handleShow}>
+      } onClick={handleShow}
+
+        data-testid="modal-button"
+      >
         Assista o vídeo!
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} data-testid="modal">
+
         <Modal.Header closeButton>
           <Modal.Title>Notícias do minuto</Modal.Title>
         </Modal.Header>

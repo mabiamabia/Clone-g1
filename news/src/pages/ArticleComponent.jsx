@@ -10,7 +10,7 @@ export default function ArticleComponent()  {
       <h2>Esse é o artigo</h2>
       <nav>
         <Link to="/">Home</Link> |{" "}
-        <Link to="page">page</Link>
+        <Link to="page">Page</Link>|{" "}
       </nav>
     </span>
     );

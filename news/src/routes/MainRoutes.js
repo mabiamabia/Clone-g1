@@ -1,7 +1,7 @@
 import App from "../App";
 import ArticleComponent from "../pages/ArticleComponent";
 import PageComponent from "../pages/PageComponent";
-import Pager from "../config";
+
 
 const MainRoutes = {
   path: "/",
